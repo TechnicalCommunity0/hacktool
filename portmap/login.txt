@@ -1,0 +1,11 @@
+techdevil20020002@gmail.com
+zxc@12345
+
+
+
+ tcp://techdevil20020002-41767.portmap.host:41767 => 44432 
+ 
+ 
+ 
+ openvpn --config techdevil20020002.msf.ovpn
+

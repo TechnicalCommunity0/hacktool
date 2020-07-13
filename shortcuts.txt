@@ -1,0 +1,7 @@
+alias l='sudo /root/lscript/l'
+alias pfwd='sudo openvpn --config /opt/pfwd/techdevil20020002.msf.ovpn'
+alias persist='sudo python /home/darkdevil/persist-script/script.py && caja /home/darkdevil/persist-script '
+alias sound='cd /home/darkdevil/sound && ./SoundWireServer'
+alias airgeddon='cd /home/darkdevil/airgeddon/ && sudo bash ./airgeddon.sh'
+alias nr='sudo service network-manager restart'
+alias monitor='sudo rmmod r8188eu.ko && sudo ip link set wlan0 down && sudo iw wlan0 set monitor control && sudo ip link set wlan0 up'
